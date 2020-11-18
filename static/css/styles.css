@@ -1,0 +1,141 @@
+header{
+	color: rgb(255,255,255);
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	margin: 1px auto;
+	padding: 10px;	
+	background-color: rgb(50,50,50);
+}
+
+header a{
+	font-family: 'Syne Mono', monospace;
+	color: rgb(240,240,240);
+	font-size: 20px;
+	border: solid 2px rgb(240,240,240);
+	padding: 2px;
+}
+
+header span{
+	font-size: 20px;
+}
+
+
+.call-to-action{
+	width: 100%;
+	padding: 4rem;
+}
+.call-to-action p{
+	font-size: 1.4rem;
+	font-family: 'Catamaran', sans-serif;
+	color: rgb(50,50,50);
+}
+
+.call-to-action h1{
+	font-size: 2rem;
+	font-family: 'Catamaran', sans-serif;
+	color: rgb(30,30,30)
+}
+
+.missionvision{
+	width: 100%;
+	background-color: rgb(50,50,50);
+	color: rgb(240,240,240);
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: flex-start;
+	padding: 4rem;
+}
+.missionvision div{
+	flex-basis: 45%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+
+}
+.missionvision p{
+	font-size: 1.4rem;
+	font-family: 'Catamaran', sans-serif;
+}
+.missionvision h2{
+	font-weight: bold;
+	font-size: 1.5rem;
+	font-family: 'Catamaran', sans-serif;
+}
+
+
+
+@media screen and (max-width: 724px)
+{
+	.missionvision{
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: flex-start;
+	}
+	.vision{
+		margin-top: 2rem;
+	}
+}
+
+.contactform{
+	width: 90%;
+	display: flex;
+	flex-direction: column;
+	padding: 5rem;
+	margin-bottom: 0 auto;
+}
+.contactform form{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.contactform p{
+	font-size: 2rem;
+	font-family: 'Catamaran', sans-serif;
+	color: rgb(50,50,50);
+	text-align: center;
+	padding-bottom: 2rem;
+}
+.contactform input{
+	margin-bottom: 2rem;
+	border: none;
+	border-bottom: 1px solid rgb(50,50,50);
+	padding: 0.9rem;
+	background-color: rgb(240,240,240);
+	font-family: 'Catamaran', sans-serif;
+}
+.contactform button{
+	width: 5rem;
+	background-color: rgb(50,50,50);
+	color: rgb(255,255,255);
+	padding: 0.7rem;
+	border: none;
+	font-family: 'Catamaran', sans-serif;
+	font-weight: bold;
+}
+.contactform button:hover{
+	border: 1px solid rgb(50,50,50);
+	background-color: rgb(240,240,240);
+	color: rgb(50,50,50);
+	transition: all 0.5s linear;
+}
+
+article{
+	display: flex;
+	width: : 100vw;
+	height: : 100vh;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+	padding: 5rem 7rem;
+}
+article p{
+	font-family: 'Catamaran', sans-serif;
+	font-size: 1.3rem;
+	text-align: center;
+}
+
+
